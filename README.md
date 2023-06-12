@@ -9,3 +9,14 @@ Window example: <br>
 <img src="https://github.com/hiddenMedic/rustyChasers/blob/main/images/example.png?raw=true">
 Adjustable Settings: <br>
 <img src="https://github.com/hiddenMedic/rustyChasers/blob/main/images/settings.png?raw=true">
+
+<br> /py_gen_plotter is used for plotting fitness. Examples: <br>
+pos_vis_safe_evolve: <br>
+<img src="https://github.com/hiddenMedic/rustyChasers/blob/main/_data_archive/instances/pos_vis_safe_evolve/images/chaser_avg.png?raw=true">
+<img src="https://github.com/hiddenMedic/rustyChasers/blob/main/_data_archive/instances/pos_vis_safe_evolve/images/hervor_avg.png?raw=true">
+
+closest_safe_evolve: <br>
+<img src="https://github.com/hiddenMedic/rustyChasers/blob/main/_data_archive/instances/closest_safe_evolve/images/chaser_avg.png?raw=true">
+<img src="https://github.com/hiddenMedic/rustyChasers/blob/main/_data_archive/instances/closest_safe_evolve/images/hervor_avg.png?raw=true">
+
+Refer to \_data\_archive/instances for more figures.

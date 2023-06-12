@@ -1,0 +1,11 @@
+[package]
+name = "rusty_chasers"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lib-graphics = { path = "../libs/graphics" }
+lib-simulation = { path = "../libs/simulation" }
+tokio = { version = "1.19", features = ["full"] }

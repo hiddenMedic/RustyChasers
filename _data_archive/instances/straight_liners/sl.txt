@@ -1,0 +1,22 @@
+chasers can see only hervor,
+hervor can see plants and chasers,
+plants dont respawn,
+hervor alive => +40.0,
+1 hervor, 2 chasers
+~1600 gens, 1000 worlds
+
+the hervor just goes in a straight line,
+the chasers also go in a straight line, sometimes spinning in place
+
+since the hervor cant see behind him, he doesnt know if he is being followed,
+if he is, and he turns to pick up food, he is most likely going to die, so he just
+goes in a straight line to make sure noone can catch up to him, he doesnt even steer
+to evade chasers (maybe he would if there were only one chaser?), since he wraps around
+the screen this allows him to get some plants while maximizing chance of survival
+
+since the chasers cant catch up to hervor, they dont even try. they usually go in a
+staight line and hope they will collide with the hervor, if he is at an angle to them,
+they will try to steer into him. if they miss, they wont try to chase him, but will drift
+off in a straight line again.
+
+compatible with savepoint1

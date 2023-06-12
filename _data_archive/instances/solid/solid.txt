@@ -1,0 +1,11 @@
+hervor individual is 
+    let fit: f32 = hervor.satiation as f32 + if hervor.dead {0.0} else {40.0} + if hervor.satiation == nplants {30.0} else {0.0};
+chaser:
+speed_max: 0.004
+
+hervor tries to get plants, curves, often tries to dodge chasers
+sometimes just decides to go in a small circle - dont know why
+
+chasers go mostly in staight lines but curve sometimes, they try to catch hervor
+
+{ min_fitness: 0.0, max_fitness: 58.0, avg_fitness: 23.76 }, Statistics { min_fitness: 0.0, max_fitness: 10.0, avg_fitness: 2.75 }

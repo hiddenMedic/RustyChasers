@@ -1,0 +1,4 @@
+everyone can only see plants, so the chasers camp the plants, hoping that hervor will run into them when trying to eat into
+--hervor death still not implemented
+
+compatible with savepoint1 if brain topology is reverted

@@ -1,0 +1,103 @@
+benchmark #1:
+
+Started 100 Generations at Instant { t: 1592438.4810137s }
+Ran benchmark for 100 generations for 100 worlds.
+Total runtimes: 
+Sequential: 138.1745059s
+Manual parallel (2 threads): 219.4375959s
+Manual rayon on range : 216.25634s
+Rayon: 67.6473061s
+Average generation runtimes:
+Sequential: 1.381745059s
+Manual parallel (2 threads): 2.194375959s
+Manual rayon on range : 2.1625634s
+Rayon: 676.473061ms
+Time taken: 4292.80s
+Hervor, Chasers: Some((Statistics { min_fitness: 0.0, max_fitness: 41.0, avg_fitness: 27.66 }, Statistics { min_fitness: 250.0, max_fitness: 570.0, avg_fitness: 417.6 }))
+
+
+benchmark #2:
+
+Started 100 Generations at Instant { t: 1663764.1414311s }
+Ran benchmark for 100 generations for 100 worlds.
+Total step runtimes: 
+Sequential: 151.0760782s
+Manual parallel (2 threads): 259.7877893s
+Manual rayon on range : 250.6316637s
+Rayon: 98.8113751s
+Total step benching time: 0ns
+
+Average generation step runtimes:
+Sequential: 1.510760782s
+Manual parallel (2 threads): 2.597877893s
+Manual rayon on range : 2.506316637s
+Rayon: 988.113751ms
+Average generation step benching time: 0ns
+
+Total evolve runtimes:
+Total evolution (benching costs low): 832.8934ms
+Hervor evolution: 279.5923ms
+Chaser evolution: 550.9309ms
+Plant evolution: 2.3398ms
+
+Average generation evolve runtimes:
+Total evolution (benching costs low): 988.113751ms
+Hervor evolution: 1.510760782s
+Chaser evolution: 2.597877893s
+Plant evolution: 2.506316637s
+Time taken: 4698.14s
+
+unbenched time #3:
+144.48s
+
+benchmark #4:
+
+Started 100 Generations at Instant { t: 1695934.0150189s }
+Ran benchmark for 100 generations for 100 worlds.
+Total step runtimes: 
+Sequential: 136.9610866s
+Manual parallel (2 threads): 192.9520536s
+Manual rayon on range : 211.7908115s
+Rayon: 65.4829906s
+Total step benching time: 2265.8258361s
+
+Average generation step runtimes:
+Sequential: 1.369610866s
+Manual parallel (2 threads): 1.929520536s
+Manual rayon on range : 2.117908115s
+Rayon: 654.829906ms
+Average generation step benching time: 22.658258361s
+
+Total evolve runtimes:
+Total evolution (benching costs low): 761.9382ms
+Hervor evolution: 262.295ms
+Chaser evolution: 498.8333ms
+Plant evolution: 773.7µs
+
+Average generation evolve runtimes:
+Total evolution (benching costs low): 654.829906ms
+Hervor evolution: 1.369610866s
+Chaser evolution: 1.929520536s
+Plant evolution: 2.117908115s
+Time taken: 2460.19s
+
+benchmark #5:
+
+Started 50,000 Generations at Instant { t: 1708408.6648858s }
+Ran benchmark for 50000 generations for 1000 worlds.
+Total step runtime: 91611.3867614s
+
+Average generation step runtime: 1.832227735s
+
+Total evolve runtimes:
+Total evolution (benching costs low): 1341.9118227s
+Hervor evolution: 1331.2016173s
+Chaser evolution: 0ns
+Plant evolution: 10.6887022s
+
+Average generation evolve runtimes:
+Total evolution (benching costs low): 0ns
+Hervor evolution: 1.832227735s
+Chaser evolution: 0ns
+Plant evolution: 0ns
+Time taken: 92985.17s

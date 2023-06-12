@@ -1,0 +1,36 @@
+https://towardsdatascience.com/how-to-teach-an-ai-to-play-games-deep-reinforcement-learning-28f9b920440a
+
+1)
+simulation is time limited (number of steps). <- i think good for training
+n amount of plants, -> static (maybe slowly moving? (like in water))
+1 hervor, -> fit = amount of plants eaten, wins if eats all plants (major+), loses if dies (major-)
+m amount of chasers (trying to eat the hervor) 
+    -> fit = ?
+    idea = closest they ever got to the hervor, win if eat hervor (major+)
+x amount of knowledge spaces 
+    = medium radius which if entered provides knowledge of relative position of enemy
+    (chasers and hervor are enemies), maybe knowledge spaces shouldnt work on hervor?
+    consumable?
+    knowledge is shared to all chasers if chaser enters?
+
+on implementation:
+- relative position could be given as closest relavite position when accounted for screen wrapping
+- knowledge spaces would probably need the animals to have reccurant neural networks to work, since the info can become stale
+    -- maybe just give time as an input
+    -- maybe just give time since knowledge as an input
+- train hervors and chasers separately? select best one from generation?
+
+crossover:
+Uniform crossover seems like the best, Intermediate recombination seems like dodoo
+
+selection:
+roulette wheel, should implement Rank Selection <- seems saucy
+
+mutation:
+guassian <- dogshit but i dont know a better alternative
+
+bibites.png: https://www.youtube.com/watch?v=myJ7YOZGkv0
+
+
+====
+will make chasers go slower than hervor, so he can actually be able to steer,

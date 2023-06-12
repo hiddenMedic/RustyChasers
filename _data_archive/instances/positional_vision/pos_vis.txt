@@ -1,0 +1,5 @@
+[{"min_fitness":0.0,"max_fitness":48.0,"avg_fitness":13.743},{"min_fitness":0.0,"max_fitness":10.0,"avg_fitness":3.4}]
+
+~2500 generations
+
+similar behavious to straight_liners
